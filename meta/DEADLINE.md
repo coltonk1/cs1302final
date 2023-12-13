@@ -1,56 +1,43 @@
 # Deadline
 
-Modify this file to satisfy a submission requirement related to the project
-deadline. Please keep this file organized using Markdown. If you click on
-this file in your GitHub repository website, then you will see that the
-Markdown is transformed into nice-looking HTML.
-
 ## Part 1.1: App Description
 
-> Please provide a friendly description of your app, including
-> the primary functions available to users of the app. Be sure to
-> describe exactly what APIs you are using and how they are connected
-> in a meaningful way.
+    This app allows the user to search for many plants using either
+    a common name, or for more specific searches allows for use
+    of the scientific name. The results will show a small
+    Wikipedia entry and also more specific data about the plant.
+    The data includes the first publication of the plant, and
+    can even include where it is distributed natively.
 
-> **Also, include the GitHub `https` URL to your repository.**
-
-TODO WRITE / REPLACE
+    https://github.com/coltonk1/cs1302-api-app/tree/master
 
 ## Part 1.2: APIs
-
-> For each RESTful JSON API that your app uses (at least two are required),
-> include an example URL for a typical request made by your app. If you
-> need to include additional notes (e.g., regarding API keys or rate
-> limits), then you can do that below the URL/URI. Placeholders for this
-> information are provided below. If your app uses more than two RESTful
-> JSON APIs, then include them with similar formatting.
 
 ### API 1
 
 ```
-https://.../replace/me
+https://trefle.io/api/v1/plants/search?token=YOUR_TREFLE_TOKEN&q=coconut
+https://trefle.io/api/v1/plants/{id}?token=YOUR_TREFLE_TOKEN
 ```
 
-> Replace this line with notes (if needed) or remove it (if not needed).
+    This API does include a token.
 
 ### API 2
 
 ```
-https://../replace/me
+https://en.wikipedia.org/w/api.php?action=query&redirects=true&format=json&prop=extracts&exintro=true&titles=Senecio%20gamolepis
 ```
-
-> Replace this line with notes (if needed) or remove it (if not needed).
 
 ## Part 2: New
 
-> What is something new and/or exciting that you learned from working
-> on this project?
-
-TODO WRITE / REPLACE
+I was excited to learn more about working with unique APIs. I enjoyed
+    using them to acomplish a goal that utilized both APIs in one.
+    I was able to learn to map data better.
 
 ## Part 3: Retrospect
 
-> If you could start the project over from scratch, what do
-> you think might do differently and why?
-
-TODO WRITE / REPLACE
+If I could go back and restart, I would probably try to plan
+    what the design of the app would look like better. With
+    this project, I eventually came to a design I was happy
+    with, but I could have saved much more time had I thought
+    about the design before I began.
